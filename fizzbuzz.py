@@ -44,11 +44,12 @@ Fizz
 Buzz
 """
 n=int(input('How many numbers shall we print? '))
-fizz= int(input("For multiples of what number shall we print 'Fizz'? "))
-fuzz= int(input("For multiples of what number shall we print 'Buzz'? "))
+f= int(input("For multiples of what number shall we print 'Fizz'? "))
+b= int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for x in range(1, n+1):
-    if fizz==3:
-        awiehf;aouwgwjefbJKSLDVK.jk'jopasibuvjkpHow many numbers shall we print? 25
-For multiples of what number shall we print 'Fizz'? 3
-For multiples of what number shall we print 'Buzz'? 
+    if x==f or x in range(x*f):
+        print('Fizz')
+    if x==b or x in rang(x*b):
+        print('Buzz')
+        
