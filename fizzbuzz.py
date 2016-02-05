@@ -52,4 +52,6 @@ for x in range(1, n+1):
         print('Fizz')
     if x==b or x in range(x*b):
         print('Buzz')
+    elif:
+        print(x)
         
