@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Avery Wallis
-Credit: None, so far
+Credit: Payton
 
 Assignment:
 
