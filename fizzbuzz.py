@@ -48,10 +48,12 @@ f= int(input("For multiples of what number shall we print 'Fizz'? "))
 b= int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for x in range(1, n+1):
-    if x==f or x in range(x*f):
+    if x%f==0 or x%b==0
+        print('FizzBuzz')
+    if x%f==0:
         print('Fizz')
-    if x==b or x in range(x*b):
+    if x%b==0:
         print('Buzz')
-    elif:
+    else:
         print(x)
-        
+    
