@@ -50,6 +50,6 @@ b= int(input("For multiples of what number shall we print 'Buzz'? "))
 for x in range(1, n+1):
     if x==f or x in range(x*f):
         print('Fizz')
-    if x==b or x in rang(x*b):
+    if x==b or x in range(x*b):
         print('Buzz')
         
